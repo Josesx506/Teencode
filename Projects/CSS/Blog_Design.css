@@ -1,0 +1,265 @@
+*, *::before, *::after {
+	padding: 0;
+	margin: 0;
+}
+#total {
+	background: #0A0A0A;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	text-align: center;
+}
+.logo img {
+	border: 1px solid: #ddd;
+	border-radius : 50%;
+	padding: 1px;
+	width: 50px;
+	height: 60px;
+	top: 50%;
+	left: 50%;
+}
+.logo p {
+	position: absolute;
+	top: 35%;
+	left: 52%;
+	font-size: 20px;
+	color: #D3D17A;
+}
+#headdiv {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+.ulnav {
+	background-color: #C2C2C2;
+}
+.ulnav li, .ulnav a {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: #0A0A0A;
+	font-size: 25px;
+}
+.ulnav a:hover {
+	background-color: #0A0A0A;
+	color: #C2C2C2;
+	transition: 0.3s;
+	opacity: 0.6s;
+}
+#contdivland {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-gap: 200px;
+}
+.leftcon {
+	margin-left: 100px;
+	margin-top: 20px;
+	background: url(../IMG/Joses.png) center center no-repeat;
+	border-radius : 20%;
+	border: 3px solid #C2C2C2;
+	height: 500px;
+	width: 300px;
+	position: relative;
+	background-size: cover;
+}
+.leftcon::before {
+	content: "";
+	position: absolute;
+	top: -1.0rem;
+	left: -1.0rem;
+	border: 3px solid #C2C2C2;;
+	height: 100%;
+	width: 100%;
+	border-radius: 20%;
+	z-index: -1;
+}
+.rightcon {
+	margin-right: 100px;
+}
+.c1 {
+	padding-top: 40px;
+	padding-bottom: 8%;
+	color: #C2C2C2;
+}
+.c2 {
+	padding-bottom: 8%;
+	color: #C2C2C2;
+}
+.c3 {
+	color: #C2C2C2;
+}
+.first {
+	font-weight: bold;
+	font-size: 3rem;
+	color
+}
+.rest {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+#footdiv {
+	color: white;
+	text-align: center;
+}
+
+.topapp h1, .topapp p {
+	padding-top: 40px;
+	color: #C2C2C2;
+	text-align: center;
+}
+.date_selector{
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+	color: #C2C2C2;
+}
+.lowapp {
+	padding-top: 100px;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-gap: 80px;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.UI {
+	height: 300px;
+	background: #C2C2C2;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.FED {
+	height: 300px;
+	background: #C2C2C2;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.SMM {
+	height: 300px;
+	background: #C2C2C2;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.basapp {
+	background: black;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.basapp i {
+	border: 3px solid #C2C2C2;
+	width: 25%;
+	height: 30%;
+	left: 20%;
+	position: absolute;
+}
+.contactUsCol {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 50px;
+	padding: 3%;
+}
+.FB {
+	height: 300px;
+	background: #C2C2C2;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.INST {
+	height: 300px;
+	background: #C2C2C2;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.TWT {
+	height: 300px;
+	background: #C2C2C2;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.WHTS {
+	height: 300px;
+	background: #C2C2C2;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+#fbimg {
+	background: url(..//IMG/facebook.jpg) center center no-repeat;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+#instimg {
+	background: url(..//IMG/instagram.jpg) center center no-repeat;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+#twtimg {
+	background: url(..//IMG/twitter.jpg) center center no-repeat;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+#whtsimg {
+	background: url(..//IMG/whatsapp.jpg) center center no-repeat;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.Social_links {
+	text-decoration: none;
+	font-weight: bold;
+	color: aqua;
+	font-size: 1.5rem;
+}
