@@ -299,4 +299,5 @@ console.log(nameOfWorkers[45])
 
 console.log(nameOfWorkers[30])
 
-console.log(typeof(sum))
+
+
